@@ -23,7 +23,7 @@ export const Equipped = (props: EquippedProps) => {
     );
 
     return (
-        <Box>
+        <Box className={styles.backgroundImage}>
             {nft && (
                 <Card className={styles.equipcontainer} p={5}>
                     <Flex>

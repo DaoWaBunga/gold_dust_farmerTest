@@ -117,3 +117,10 @@
 .logo img {
   filter: invert(1);
 }
+
+.backgroundImage {
+  background-image: url('/public/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
